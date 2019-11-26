@@ -1,0 +1,46 @@
+html, body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;  
+    font-family: arial;
+    /*se realmente quer impedir que tenha uma barra horizontal.*/
+    overflow-x: scroll;
+    /*/pode-se usar auto para deixar o browser decidir quando usar.*/
+    overflow-y: scroll;
+    /*/pode-se usar auto para deixar o browser decidir quando usar. */
+}
+
+.chatbotImage {
+    margin-top: 40px;
+    width: 35vw;
+}
+
+.chatbotOutput {
+    font-size: 45px;
+}
+
+.chatbotInput {
+    margin-top: 10px;
+    width: 55vw;
+    padding: 20px;
+    font-size: 25px;
+}
+
+input,
+span,
+img {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    height: 900px;
+    position: relative;
+}
+
+.randomClass {
+    height: 30px;
+    width: 100%;
+    background-color: burlywood;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>ChatBot IFSP</title>
+</head>
+<body>
+    <div class="container">
+        <img class="chatbotImage" src="./chatbot.png" />
+        <span id="chatbotOutput" class="chatbotOutput">Olaaaaaa, O que gostaria de saber hoje ...</span>
+        <input id="chatbotInput" class="chatbotInput" />
+        <input class="btn btn-primary" id="submitButton" type="submit" />
+        <script src='./app.js'></script>
+    </div>
+</body>
+</html>
+
+<Script>
+
+    // JS para rolagem
+    $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 50) {
+            $('.randomClass')
+                .css({
+                    'background-color': 'tomato',
+                    'position': 'fixed'
+                });
+        } else {
+            $('.randomClass')
+                .css({
+                    'background-color': 'burlywood',
+                    'position': 'inherit'
+                });
+        }
+    });
+
+</Script>
